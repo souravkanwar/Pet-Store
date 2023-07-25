@@ -497,13 +497,13 @@ section {
 
 .shop .box-container .box .content h3 {
   font-size: 2.2rem;
-  color: #130f40;
+  color: green;
   padding-bottom: .5rem;
 }
 
 .shop .box-container .box .content .amount {
   font-size: 2rem;
-  color: #e67e22;
+  color: red;
 }
 
 .services .box-container {
@@ -535,7 +535,7 @@ section {
   line-height: 6.5rem;
   font-size: 3rem;
   color: #fff;
-  background: #e67e22;
+  background:red;
   border-radius: 50%;
   margin-bottom: .5rem;
 }
@@ -572,13 +572,13 @@ section {
 
 .plan .box-container .box .title {
   text-align: center;
-  color: #e67e22;
+  color:red;
   font-size: 2rem;
 }
 
 .plan .box-container .box .day {
   text-align: center;
-  color: #130f40;
+  color: brown;
   font-size: 3.5rem;
 }
 
