@@ -1,0 +1,327 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Paws</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-paw"></i> Happy Paws </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#shop">shop</a>
+            <a href="#services">services</a>
+            <a href="#plan">plan</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+        
+        <a class="fas fa-shopping-cart" id="cart-icon" style="font-size: 3rem;"></a>
+
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+
+
+            <div class="cart-content">
+
+
+            </div>
+
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+
+            <button type="button" class="btn-buy">Buy Now</button>
+
+            <i class='bx bx-x' id="cart-close"></i>
+        </div>
+        <div class="fas fa-user" id="login-btn" style="font-size: 3rem;"></div>
+    </div>
+    <form action="" class="login-form">
+        <h3>sign in</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="password" name="" placeholder="enter your password" id="" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <div class="links">
+            <a href="#">forget password</a>
+            <a href="#">sign up</a>
+        </div>
+    </form>
+
+
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3> <span style="color:aqua;">hi</span> welcome to our pet shop </h3>
+            <a href="#shop" class="btn">shop now</a>
+        </div>
+
+        <img src="./assets/images/bottom_wave.png" class="wave" alt="">
+
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="image">
+            <img style="height: 600px; width: 500px;" src="./assets/images/homemade-dog-food-5-e1594936709230.jpg"
+                alt="">
+        </div>
+
+        <div class="content">
+            <h3>premium <span>pet food</span> manufacturer</h3>
+            <p>Pet parents who strongly believe in the value of biologically appropriate dog food can trust Happy Paws
+                to give their pets one of the best dog foods in the world. Happy Paws strongly advocates for the use of
+                locally-grown or farmed ingredients to go in every packaging. This dog food brand boasts of WholePrey
+                ratios allowing dogs to get the right amounts of proteins and other nutrients that they would otherwise
+                get if they were hunting for their own food in the wild.</p>
+            <a href="#shop" class="btn">Shop Now</a>
+        </div>
+
+    </section>
+
+    <div class="dog-food">
+
+        <div class="image">
+            <img src="./assets/images/dog_food.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3> <span>air dried</span> dog food </h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat iure illo, repudiandae rem porro sunt.
+            </p>
+            <div class="amount">Rs300 - Rs1000</div>
+            <a href="#"> <img src="./assets/images/shop_now_dog.png" alt=""> </a>
+        </div>
+
+    </div>
+
+    <div class="cat-food">
+
+        <div class="content">
+            <h3> <span>air dried</span> cat food </h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat iure illo, repudiandae rem porro sunt.
+            </p>
+            <div class="amount">Rs300 - Rs900</div>
+            <a href="#"> <img src="./assets/images/shop_now_cat.png" alt=""> </a>
+        </div>
+
+        <div class="image">
+            <img src="./assets/images/cat_food.png" alt="">
+        </div>
+
+    </div>
+
+    <section class="shop container" id="shop">
+        <h2 class="section-title">Our Products</h2>
+
+        <!-- CONTENT  -->
+        <div class="shop-content">
+            <!-- BOX 1 -->
+            <div class="product-box">
+                <img src="assets/images/HTB1Z9.ea3oQMeJjy1Xaq6ASsFXaU.jpg" alt="" class="product-img">
+                <h2 class="product-title">Fancy Feast</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 2 -->
+            <div class="product-box">
+                <img src="assets/images/jewels_pet_packaging_mockup.jpg" alt="" class="product-img">
+                <h2 class="product-title">Junior</h2>
+                <span class="product-price">$59.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 3 -->
+            <div class="product-box">
+                <img src="assets/images/premium-dog-food-packaging-design.jpg" alt="" class="product-img">
+                <h2 class="product-title">Robbie's</h2>
+                <span class="product-price">$29.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 4 -->
+            <div class="product-box">
+                <img src="assets/images/cat-food-packaging-design-inspiration-1.jpg" alt="" class="product-img">
+                <h2 class="product-title">Cat Litter</h2>
+                <span class="product-price">$105</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 5 -->
+            <div class="product-box">
+                <img src="assets/images/attachment_113749082.jpg" alt="" class="product-img">
+                <h2 class="product-title">Better Bones</h2>
+                <span class="product-price">$95</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 6 -->
+            <div class="product-box">
+                <img src="assets/images/5625ee77-7594-49a5-84e5-92e9410c6af8.avif" alt="" class="product-img">
+                <h2 class="product-title">Dog Food</h2>
+                <span class="product-price">$1400</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+
+        <h1 class="heading"> our <span style="color: aqua;">services</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-dog"></i>
+                <h3>dog boarding</h3>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-cat"></i>
+                <h3>cat boarding</h3>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bath"></i>
+                <h3>spa & grooming</h3>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-drumstick-bite"></i>
+                <h3>healthy meal</h3>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-baseball-ball"></i>
+                <h3>activity exercise</h3>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-heartbeat"></i>
+                <h3>health care</h3>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="plan" id="plan">
+
+        <h1 class="heading"> choose a <span style="color: aqua;">plan</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3 class="title">pet care</h3>
+                <h3 class="day"> 1 day </h3>
+                <i class="fas fa-bicycle icon"></i>
+                <div class="list">
+                    <p> pet room <span class="fas fa-check"></span> </p>
+                    <p> pet grooming <span class="fas fa-check"></span> </p>
+                    <p> pet exercise <span class="fas fa-check"></span> </p>
+                    <p> pet meals <span class="fas fa-check"></span> </p>
+                </div>
+                <div class="amount"><span>Rs</span>800</div>
+                <a href="#" style="margin-bottom: 30px;" class="btn"> choose plan </a>
+            </div>
+
+            <div class="box">
+                <h3 class="title">pet care</h3>
+                <h3 class="day"> 10 days </h3>
+                <i class="fas fa-motorcycle icon"></i>
+                <div class="list">
+                    <p> pet room <span class="fas fa-check"></span> </p>
+                    <p> pet grooming <span class="fas fa-check"></span> </p>
+                    <p> pet exercise <span class="fas fa-check"></span> </p>
+                    <p> pet meals <span class="fas fa-check"></span> </p>
+                </div>
+                <div class="amount"><span>Rs</span>3500</div>
+                <a href="#" style="margin-bottom: 30px;" class="btn"> choose plan </a>
+            </div>
+
+            <div class="box">
+                <h3 class="title">pet care</h3>
+                <h3 class="day"> 30 days </h3>
+                <i class="fas fa-car-side icon"></i>
+                <div class="list">
+                    <p> pet room <span class="fas fa-check"></span> </p>
+                    <p> pet grooming <span class="fas fa-check"></span> </p>
+                    <p> pet exercise <span class="fas fa-check"></span> </p>
+                    <p> pet meals <span class="fas fa-check"></span> </p>
+                </div>
+                <div class="amount"><span>Rs</span>6500</div>
+                <a href="#" style="margin-bottom: 30px;" class="btn"> choose plan </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <img src="./assets/images/top_wave.png" alt="">
+
+        <div class="share">
+            <a href="#" class="btn"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#" class="btn"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#" class="btn"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#" class="btn"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#" class="btn"> <i class="fab fa-pinterest"></i> pinterest </a>
+            <a href="#" class="btn"> <i class="fab fa-youtube"></i> youtube </a>
+        </div>
+
+        <div class="credit"> created by <span><a href="#">Sourav Kanwar</a></span> | all rights reserved! </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- custom js file link  -->
+    <script src="./assets/js/script.js"></script>
+
+</body>
