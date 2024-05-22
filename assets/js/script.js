@@ -165,7 +165,7 @@ function updateTotal() {
   let total = 0;
   cartBoxes.forEach((cartBox) => {
     let priceElement = cartBox.querySelector(".cart-price");
-    let price = parseFloat(priceElement.innerHTML.replace("$", ""));
+    let price = parseFloat(priceElement.innerHTML.replace("Rs", ""));
     let quantity = cartBox.querySelector(".cart-quantity").value;
     total += price * quantity;
   });
@@ -175,7 +175,7 @@ function updateTotal() {
   // or you can use also
   // total = Math.round(total * 100) / 100;
 
-  totalElement.innerHTML = "$" + total;
+  totalElement.innerHTML = "Rs" + total;
 }
 
 // ============= HTML COMPONENTS =============
